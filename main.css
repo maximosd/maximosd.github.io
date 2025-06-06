@@ -1,1 +1,8 @@
-
+.homeHeader {
+    background: green;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+}
