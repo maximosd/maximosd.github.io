@@ -1,8 +1,72 @@
+:root {
+    --uoGreen: #104735;
+    --uoGrass:#489D46;
+    --uoYellow: #E2E11B ;
+    --uoDarkGrey: #4D5859;
+    --uoLightGrey: #D8DCDA;
+}
+html {
+    background: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    width: 70%;
+    margin: 0 auto;
+    background: var(--uoLightGrey);
+    padding-bottom: 2%;
+}
 .homeHeader {
-    background: green;
+    background: var(--uoGreen);
     text-align: center;
     padding: 20px;
     color: white;
-    font-family: Arial, sans-serif;
+    font-size: 2em;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
     font-size: 1em;
+    margin-top: 20px;
+}
+.links a {
+    background: var(--uoDarkGrey);
+    border-radius: 20px;
+    padding: 0.5em 1.2em;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+.links a:hover {
+    background: var(--uoGrass);
+    transform: scale(103%);
+    transition: .3s;
+}
+.links a:not(hover) {
+    transition: .2s;
+}
+.homeImage {
+    display: block;
+    margin: 3em auto 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.uoName {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: var(--uoDarkGrey);
+}
+.majorName, .minorName {
+    text-align: center;
+    font-size: 1;
+    margin-top: 20px;
+    color: var(--uoDarkGrey);
+}
+.homeDescriptionContainer {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 20px;
+    color: var(--uoDarkGrey);
+    padding: 0 20px;
 }
