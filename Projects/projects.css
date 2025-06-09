@@ -79,3 +79,41 @@ body {
     background: white;
     border-radius: 20px;
 }
+.projectsHeader {
+    text-align: center;
+    color: var(--uoDarkGrey);
+}
+.project :first-of-type {
+    margin-top: 2em;
+}
+.project1, .project2, .project3, .project4, .project5, .project6, .project7, .project8, .project {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin: 2em 0;
+}
+
+.project1 img, .project2 img, .project3 img, .project4 img,
+.project5 img, .project6 img, .project7 img, .project8 img,
+.project img {
+    width: 25vw;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin-left: 5em;
+}
+.project1 p, .project2 p, .project3 p, .project4 p,
+.project5 p, .project6 p, .project7 p, .project8 p,
+.project p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+    background: grey;
+    border-radius: 20px;
+    padding: 1em;
+    width: 30vw;
+    text-align: center;
+}
+.project a {
+    color: var(--uoYellow);
+}
