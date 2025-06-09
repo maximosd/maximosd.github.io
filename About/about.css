@@ -23,11 +23,15 @@ body {
     font-size: 2em;
 }
 .links {
+    gap: 30px;
     display: flex;
     justify-content: center;
-    gap: 30px;
-    font-size: 1em;
-    margin-top: 20px;
+    margin: 20px auto 20px auto;
+    font-size: 1.25em;
+    padding-left: auto;
+    padding-right: auto;
+    width: 60vw;
+    min-width: 100px;
 }
 .links a {
     background: var(--uoDarkGrey);
