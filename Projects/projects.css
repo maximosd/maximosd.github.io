@@ -23,13 +23,6 @@ body {
     font-size: 2em;
 }
 .links {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    font-size: 1em;
-    margin-top: 20px;
-}
-.links {
     gap: 30px;
     display: flex;
     justify-content: center;
@@ -40,6 +33,14 @@ body {
     width: 60vw;
     min-width: 100px;
 }
+.links a {
+    background: var(--uoDarkGrey);
+    border-radius: 20px;
+    padding: 0.5em 1.2em;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
 .links a:hover {
     background: var(--uoGrass);
     transform: scale(103%);
@@ -48,40 +49,33 @@ body {
 .links a:not(hover) {
     transition: .2s;
 }
-.divider {
-    border: none;
-    width: 95%;
-    height: 1px;
-    background-color: var(--uoDarkGrey);
-    margin: 30px auto 0 auto;
+.homeImage {
+    display: block;
+    margin: 3em auto 0 auto;
+    border-radius: 20px;
+    width: 17vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.projectsHeader {
+.uoName {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: 20px;
     color: var(--uoDarkGrey);
 }
-.project {
-    display: flex;
-    align-items: center;
-    gap: 5vw;
-    margin: 2em 0;
-}
-.project img {
-    width: 30vw;
-    object-fit: cover;
-    border-radius: 10px;
-    display: block;
-    margin-left: 4vw;
-}
-.project img:first-of-type {
-    margin-top: 1.5em;
-}
-.project a {
-    font-size: 1.25vw;;
-    color: var(--uoYellow);
+.majorName, .minorName {
     text-align: center;
-    background: var(--uoGreen);
+    font-size: 1;
+    margin-top: 20px;
+    color: var(--uoDarkGrey);
+}
+.homeDescriptionContainer {
+    text-align: center;
+    font-size: 1em;
+    margin: 20px auto 10px auto;
+    color: black;
+    padding: 5px;
+    width: 450px;
+    max-width: 600px;
+    background: white;
     border-radius: 20px;
-    padding: .5em 1em;
 }
