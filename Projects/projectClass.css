@@ -51,6 +51,12 @@ body {
     transition: .2s;
 }
 .classNum {
-    font-size: 1.5em;
-    color: var(----uoDarkGrey);
+    font-size: 1.2em;
+    color: var(--uoYellow);
+    text-align: center;
+    background: var(--uoDarkGrey);
+    border-radius: 20px;
+    padding: 1em;
+    margin: 1em auto 1em auto;
+    width: 30vw;
 }
